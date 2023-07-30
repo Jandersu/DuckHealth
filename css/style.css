@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EBF2F5;
+    font-family: nunito;
+    overflow: hidden;
+}
+
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    background-image: linear-gradient(to bottom, #5172fd, #03becd);
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    border-radius: 10px 10px;
+}
+
+.logo{
+    background-color: #2E4A7D;
+    width: 53px;
+    height: 50px;
+    padding: 1px;
+    border-radius: 8px 8px;
+    position: absolute;
+    right: 95%;
+    top: 4%;    
+}
+
+.icons{
+    position: fixed;
+    top: 66%;
+    left: 40%;
+}
+
+.login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.login input{
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #3C5D95;
+    background: #F5F5F5;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none;
+}
+
+
+#bem-vindo{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    width: 289px;
+    height: 67px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+#Duck{
+    color: #FFD666;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 53px;
+    height: 50px;
+    padding: 1px;
+    border-radius: 8px 8px;
+    position: absolute;
+    left: 125%;
+    bottom: 10%;
+    
+}
+
+#laudos{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#botao{
+    margin-bottom: 20px;
+    border: none;
+    height: 60px;
+    color: #2E4A7D;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FFD666;
+}
+
+.CorAmarela{
+    color: #FFD666;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.CorAzul{
+    color: #00DDF9;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+p{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+a{
+    color: #FFD666;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
