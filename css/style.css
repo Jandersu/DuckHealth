@@ -28,7 +28,7 @@ body{
     width: 500px;
     height: 500px;
     padding: 50px;
-    border-radius: 10px 10px;
+    border-radius: 8px 8px;
 }
 
 .logo{
@@ -43,9 +43,14 @@ body{
 }
 
 .icons{
-    position: fixed;
-    top: 66%;
-    left: 40%;
+    position: relative;
+    left: 48px;
+    bottom: 29px;
+}
+
+.vetores{
+    stroke-width: 2px;
+    stroke: rgba(46, 74, 125, 0.20);
 }
 
 .login form{
@@ -56,7 +61,7 @@ body{
 }
 
 .login input{
-    margin-top: 20px;
+    margin-top: 2px;
     height: 50px;
     border-radius: 8px;
     border: 1px solid #3C5D95;
@@ -70,7 +75,70 @@ body{
     outline: none;
 }
 
+#cpf{
+    padding-left: 3em;
+}
 
+#user{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: 40px;
+    left: 15px;
+}
+
+#senha{
+    padding-left: 3em;
+}
+
+#password{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    top: 40px;
+    left: 15px;
+}
+
+#esq_inf1{
+    position: relative;
+    width: 471.663px;
+    height: 757.202px;
+    right: 725px;
+    bottom: 65px;
+}
+
+#esq_inf2{
+    position: relative;
+    width: 471.663px;
+    height: 757.202px;
+    right: 70px;
+    bottom: 250px;
+}
+
+#esq_inf3{
+    position: relative;
+    width: 471.663px;
+    height: 757.202px;
+    left: 50px;
+    bottom: 230px;
+}
+
+#dir_sup1{
+    position: relative;
+    width: 471.663px;
+    height: 757.202px;
+    bottom: 1000px;
+    left: 1650px;
+}
+
+#dir_sup2{
+    position: relative;
+    width: 471.663px;
+    height: 757.202px;
+    bottom: 515px;
+    left: 78px;
+}
 #bem-vindo{
     color: #FFF;
     text-align: center;
@@ -96,12 +164,11 @@ body{
     line-height: normal;
     width: 53px;
     height: 50px;
-    padding: 1px;
+    padding: 3px;
     border-radius: 8px 8px;
     position: absolute;
     left: 125%;
     bottom: 10%;
-    
 }
 
 #laudos{
@@ -115,6 +182,7 @@ body{
 }
 
 #botao{
+    margin-top: 30px;
     margin-bottom: 20px;
     border: none;
     height: 60px;
