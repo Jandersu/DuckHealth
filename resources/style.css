@@ -1,0 +1,49 @@
+.nav-icon{
+    background-color: #2e4a7d;
+}
+
+.bg-ciano{
+    background-color: #15c3d6;
+}
+
+.primeira-section{
+    background-color: #15c3d6;
+    border-bottom-left-radius: 10px;
+}
+
+.nav-link{
+    color: #FFF;
+}
+.navbarNavAltMarkup{
+    color: #FFF;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: #FFD666;
+    font-family: Nunito;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+footer{
+    background-color: #15c3d6;
+    margin: 0px;
+    color: #FFF;
+    text-align: left;
+    font-family: Nunito;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-top-right-radius: 20px;
+}
+
+#lista{
+    color: #FFF;
+}
