@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="resoarse/stryle.css"> 
+    <link rel="stylesheet" href="css/style_home.css"> 
     <title>DuckHealth</title>
     
 </head>
@@ -11,7 +11,13 @@
     <div class="container">
         <header>
             <nav>
-                
+                <img id="logo" src="images/logo.png" alt="">
+                <ul class="nav-list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#exames">Exames</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
             </nav>
         </header>
         <div class="home">
@@ -20,16 +26,16 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus velit expedita porro quia pariatur quaerat inventore deserunt aliquam blanditiis! Minus dolores sapiente repellat corrupti, dolor minima laudantium eligendi tenetur tempora?</p>
             </div>
             <input id="botao" type="submit" value="Acessar seus laudos">
-            <img id="consutorio"src="resoarse/img/icone2.png" alt="">
-            <img id="icone-laudos" src="resoarse/img/img-Laudo.svg" alt=""> 
+            <img id="consutorio"src="images/icone2.png" alt="">
+            <img id="icone-laudos" src="images/img-Laudo.svg" alt=""> 
         </div>
 
-        <div class="sobre">
+        <div class="sobre" id="sobre">
             <div>
                 <h2>Sobre Nós</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis optio sapiente natus doloremque, repellat excepturi temporibus iusto quasi aliquid doloribus similique labore earum perferendis quis! Ut, eius? Modi, fuga?</p>
             </div>
-            <img id="atendimento" src="resoarse/img/icone3.png" alt="">
+            <img id="atendimento" src="images/icone3.png" alt="">
             <div>
                 <svg width="502" height="502" viewBox="0 0 502 502" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.5" d="M501 251.983C501 389.511 389.071 501 251 501C112.929 501 1 389.511 1 251.983V250.017C1 112.489 112.929 1 251 1C389.071 1 501 112.489 501 250.017V251.983Z" stroke="#878D92"/>
@@ -43,7 +49,7 @@
             </div>
         </div>
 
-        <div class="exames">
+        <div class="exames" id="exames">
             <div>
                 <h2>Exames</h2>
                 <img src="" alt="">
@@ -66,10 +72,10 @@
                 <p>Ambiente climatizado, para o seu conforto ao atende-lo!</p>
                 <p>Sala com brinquedos e passa-tempo para as crianças!</p>
             </div>
-            <img src="resoarse/img/icone4.png" alt="">
+            <img src="images/icone4.png" alt="">
         </div>
         
-        <div class="contato">
+        <div class="contato" id="contatos">
             <form>
                 <input type="text" name="nome" placeholder="Nome" autofocus>
                 <input type="text" name="email" placeholder="Email" autofocus>
@@ -88,7 +94,7 @@
             </div>
         </div>
         <footer>
-            <img src="resoarse/img/icone1.png" alt="">
+            <img src="images/icone1.png" alt="">
             <h2>Duck Health</h2>
         </footer> 
     </div>
