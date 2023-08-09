@@ -10,12 +10,68 @@ body{
     font-size: 20px;
 }
 
+/*home-duck*/
 .home{
     position: relative;
     border-radius: 0px 0px 0px 150px;
     border: 0px solid #FFF;
     background: #15C3D6;
+    display: flex;
+    align-items;
 }
+
+.img-text-duck{
+    text-align: center;
+}
+
+h1{
+    color: #FFD666;
+    text-align: center;
+    font-family: Nunito;
+    font-size:500%;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 10%;
+}
+
+.duck-text{
+    color: #FFF;
+    text-align: justify;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.laudo-botao{
+    height: 10%;
+    
+}
+
+#botao{
+    height: 75%;
+    width: 35%;
+    border-radius: 8px;
+    background: #2E4A7D;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 150%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#icone-laudo{
+
+}
+
+#consutorio{
+    width: 110%;
+}
+
 
 a{
     color: #FFF;
@@ -48,7 +104,7 @@ nav{
 
 .nav-list li{
     letter-spacing: 3px;
-    margin-left: 32px; 
+    margin-left: 65px; 
 }
 
 @media (max-whith: 999px) {
@@ -76,21 +132,6 @@ nav{
     border-radius: 8px 8px;
     position: relative;
     right: 129px; 
-}
-
-#consultorio{
-
-}
-
-h1{
-    
-    color: #FFD666;
-    text-align: center;
-    font-family: Nunito;
-    font-size: clamp(1.75, 1em, 1em + 3vw);
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
 }
 
 /*Sobre nós*/
