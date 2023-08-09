@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-pag{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+} 
+
+.left-pag{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-pag{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-edit{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+}
+
+.topo-cadastro{
+    display: flex;
+}
+
+#azul{
+    color: #2E4A7D;
+    font-family: Nunito;
+    font-weight: 800;
+    margin: 0;
+}
+
+#vermelho{
+    color: #FF738A;
+    font-family: Nunito;
+    font-weight: 800;
+    margin-left: 10px;
+    
+}
+
+.inp{
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #2E4A7D;
+    background: #F5F5F5;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 12pt;
+    
+
+}
