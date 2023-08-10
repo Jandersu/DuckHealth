@@ -9,6 +9,7 @@ body{
     background-color: #EBF2F5;
     font-family: nunito;
     font-size: 100%;
+    overflow-x: hidden;
 }
 
 /*home-duck*/
@@ -38,10 +39,10 @@ body{
 
 .consultorio{
     position: relative;
+    z-index: 10;
     left: 405px;
     width: 1000px;
-    height: 900px;
-    
+    height: auto;
 }
 
 .duck-text{
@@ -78,8 +79,25 @@ body{
 
 .icone-laudos{
     position: relative;
-    top: 205px;
+    top: 232px;
     right: 220px;
+}
+
+.vector-inicio{
+    position: relative;
+    transform: rotate(270deg);
+    bottom: 18.3em;
+    left: 10em;
+    height: auto;
+}
+
+.vector-inicio2{
+    display: block;
+    position: relative;
+    transform: rotate(270deg);
+    bottom: 54em;
+    left: 96em;
+    height: auto;
 }
 
 .sobre{
@@ -144,7 +162,7 @@ nav{
 #logo{
     background-color: #2E4A7D;
     width: 81.875px;
-    height: 85.438px;
+    height: auto;
     border-radius: 8px 8px;
     position: relative;
     right: 129px; 
