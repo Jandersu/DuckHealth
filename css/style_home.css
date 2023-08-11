@@ -193,12 +193,14 @@ body{
 
 .exames{
     display: flex;
+    position: relative;
     justify-content: space-around;
     flex-direction: row;
     background-color: #FFD666;
     border-radius: 0px 222px 0px 220px;
     width: 1900px;
     height: 655px;
+    z-index: 3;
 }
 
 .titulo-exames{
@@ -453,12 +455,121 @@ nav{
     right: 129px; 
 }
 
-
-
-
 /*Endereço*/
 
+.endereco{
+    display: flex;
+    position: relative;
+    align-items: center;
+    z-index: 2;
+}
 
+.vetor-endereco1{
+    display: block;
+    position: relative;
+    width: 50%;
+    height: auto;
+    right: 5em;
+    bottom: 6.5em;
+    transform: rotate(90deg);
+}
+
+.vetor-endereco2{
+    display: block;
+    position: relative;
+    width: 50%;
+    height: auto;
+    bottom: 6em;
+    right: 16.5em;
+    transform: rotate(45deg);
+    margin: 0;
+}
+
+.vetor-endereco3{
+    display: block;
+    position: relative;
+    width: 60%;
+    height: auto;
+    bottom: 2em;
+    right: em;
+    transform: rotate(45deg);
+}
+
+.text-end{
+    position: relative;
+    left: 2.5em;
+    bottom: 1.8em;
+    color: #2E4A7D;
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.text-local{
+    color: rgba(46, 74, 125, 0.80);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    position: relative;
+    right: 4em;
+    white-space: nowrap;
+}
+
+.text-ambiente{
+    color: rgba(46, 74, 125, 0.80);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    position: relative;
+    right: 27.5em;
+    top: 3.5em;
+    white-space: nowrap;
+}
+
+.text-bola{
+    color: rgba(46, 74, 125, 0.80);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    position: relative;
+    top: 7em;
+    right: 51em;
+    white-space: nowrap;
+}
+
+.icone-predio{
+    position: relative;
+    right: 5em;
+}
+
+.icone-ar{
+    position: relative;
+    right: 31.5em;
+    top: 4.5em;
+}
+
+.icone-bola{
+    position: relative;
+    right: 58em;
+    top: 8em;
+}
+
+.img-mapa{
+    position: relative;
+    top: 2em;
+    right: 15em;
+}
 
 /*Contatos*/
 .main-contatos{
@@ -481,36 +592,62 @@ nav{
 
 .inp-junto{
     display: flex;
+    gap: 10px;
     margin-bottom: 10px;
 }
 
 #inp1{
     width: 40%;
-    padding: 3%;
+    padding: 1%;
     padding-left: 8px;
     border: none;
     border-radius: 8px;
+    
+    color: #909090;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 #inp2{
-    width: 40%;
-    padding: 3%;
+    width: 39%;
+    padding: 1%;
     padding-left: 8px;
     border: none;
     border-radius: 8px;
+
+    color: #909090;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 
 .inp-junto2{
     display: flex;
+    position: relative;
+    top: 1.5em;
     flex-direction: column;
     border-radius: 8px;
 }
 
 #maiorInp{
+    position: relative;
+    bottom: 1em;
     width: 80%;
     padding-bottom: 19%;
     padding-left: 8px;
     border: none;
+
+    color: #909090;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 #botao-cont{
@@ -519,10 +656,15 @@ nav{
     color: #FFF;
     padding: 15px;
     border-radius: 8px;
-    
+    border: none;
     box-shadow: 0px 4px 4px 0px rgba(26, 7, 156, 0.25);
-    
-    
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .right-page{
