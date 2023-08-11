@@ -15,9 +15,13 @@ body{
 /*home-duck*/
 .home{
     display: flex;
+    position: relative;
     border-radius: 0px 0px 0px 150px;
     border: 0px solid #FFF;
     background: #15C3D6;
+    z-index: 1;
+    width: 100%;
+    height: auto;
 }
 
 .Duck-health-titulo{
@@ -88,6 +92,7 @@ body{
     transform: rotate(270deg);
     bottom: 18.3em;
     left: 10em;
+    max-width: 100%;
     height: auto;
 }
 
@@ -97,14 +102,102 @@ body{
     transform: rotate(270deg);
     bottom: 54em;
     left: 96em;
+    max-width: 100%;
     height: auto;
 }
 
 .sobre{
     display: flex;
-    flex-direction: row;
+    background-color: #EBF2F5;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-flow: wrap-reverse;
+    z-index: 2;
+}
+
+.sobre-text{
+    display: flex;
     align-items: center;
-    justify-content:  space-around;
+    flex-flow: column;
+    position: relative;
+    left: 60em;
+    bottom: 15em;
+    gap: 44px;
+    color: rgba(46, 74, 125, 0.80);
+    text-align: justify;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sobre-titulo{
+    display: flex;
+    color: #2E4A7D;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.lorem-sobre{
+    width: 650px;
+    word-wrap: break-word;
+    margin-bottom: 0;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.vetor-sobre1{
+    position: relative;
+    left: 7em;
+    bottom: 10em;
+    max-width: 100%;
+    height: auto;
+}
+
+.vetor-sobre2{
+    position: relative;
+    right: 20em;
+    bottom: 15em;
+    max-width: 100%;
+    height: auto;
+}
+
+.vetor-sobre3{
+    position: relative;
+    right: 39.9em;
+    bottom: 16em;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-atendimento{
+    position: relative;
+    top: 5em;
+    left: 26em;
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .sobre-text {
+        font-size: 1.5em;
+    }
+}
+
+.exames{
+    display: flex;
+    background-color: #FFD666;
+    width: 100%;
+    height: auto;
+    border-radius: 0px 222px 0px 220px;
+
 }
 
 a{
