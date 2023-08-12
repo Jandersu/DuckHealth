@@ -23,8 +23,21 @@
                 <input type="text" id="cpf" name="CPF" placeholder="Escreva aqui seu CPF" autofocus>
                 <img id="password" src="images/password2.svg" alt="">
                 <input id="senha" type="password" name="senha" placeholder="Escreva aqui a senha">
-                <input id="botao" type="submit" value="Entrar">
+                <input id="botao" type="submit" value="Entrar" onclick="logar(); return false">
             </form>
+            <script>
+                function logar(){
+                    var login = document.getElementById('cpf').value;
+                    var senha = document.getElementById('senha').value;
+
+                    if(login == "11111111111" && senha == "123"){
+                        location.href = "cadastro_paciente.html";
+                    }
+                    else{
+                        alert('Usuário ou senha incorretos!');
+                    }
+                }
+            </script>
             <p>Esqueceu sua senha? <a href="#">Clique aqui!</p>
 
             <div class="logo">
