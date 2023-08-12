@@ -1,0 +1,101 @@
+*{
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.pagina{
+    display: flex;
+    align-items: center;
+}
+
+#img-medico{ 
+    width: 500px;
+    height: 600px;
+    border-radius: 8px;
+}
+
+.form-cadastro{
+    margin: 52px;
+}
+
+.topo-cadastro{
+    display: flex;
+    width: 322px;
+    height: 110px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.azul{
+    color: #2E4A7D;
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.vermelho{
+    color: #FF738A;
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.input{
+    padding-left: 3em;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    width: 300px;
+    height: 40px;
+    top: 129px;
+    left: 440px;
+    border-radius: 8px;
+    background-color: ;
+}
+
+#icon{
+    
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 35px;
+    left: 10px;
+}
+
+
+#botao-cadastro{
+    width: 300px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #2E4A7D;
+
+    display:flex;
+    justify-content: center;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10%;
+}
