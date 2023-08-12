@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Nunito, sans-serif;
+}
+
+.main-pag{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.left-pag{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-pag{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-edit{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topo-cadastro{
+    display: flex;
+    font-size: 100vw;
+    padding-right: 46%;
+}
+
+#azul{
+    color: #2E4A7D;
+    font-family: Nunito;
+    font-weight: 800;
+    margin: 0;
+    font-size: 4%;
+}
+
+#vermelho{
+    color: #FF738A;
+    font-family: Nunito;
+    font-weight: 800;
+    margin-left: 10px;
+    font-size: 4%;
+    
+}
+
+.inp{
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid #2E4A7D;
+    background: #F5F5F5;
+    padding: 20px 10px 20px 50px;
+    color: #000;
+    font-size: 15pt;
+    margin-bottom: 14px;
+}
+
+.formulario{
+    font-size: large;
+    position: relative;
+}
+
+#botao-cadastro{
+    background-color: #2E4A7D;
+    color: #fff;
+    font-size: 20pt;
+    padding: 15px 0px 15px 10px;
+    border-radius: 16px;
+    margin-top: 30px;
+    font-weight: 800;
+    letter-spacing: 2px
+}
+
+#paciente-img{
+    width: 40vw;
+    height: 90vh;
+}
+
+
+#icon1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 19px 16px;
+}
+#icon2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 99px 16px;
+}
+#icon3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 180px 16px;
+}
+#icon4{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 259px 16px;
+}
